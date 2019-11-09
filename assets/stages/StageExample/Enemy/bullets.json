@@ -1,0 +1,32 @@
+{
+"bullets":
+[
+  {
+    "name": "bullet a",
+    "damage": "1",
+    "sound": {
+      "channel": "3",
+      "path": "sounds/basic.ogg"
+    },
+    "sprites": [
+      {
+        "path": "bullet.png"
+      }
+    ],
+    "on_hit_sprites": [
+      {
+        "path": "on_hit.png"
+      }
+    ],
+    "hitboxes": [
+      {
+        "x": "-40",
+        "y": "-10",
+        "width": "80",
+        "height": "20",
+        "angle": "0"
+      }
+    ]
+  }
+]
+}

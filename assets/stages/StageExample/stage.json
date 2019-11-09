@@ -1,0 +1,152 @@
+{
+  "bullets_domain": {
+    "x": "0",
+    "y": "0",
+    "width": "1920",
+    "height": "1080"
+  },
+  "misc": {
+    "velocity": "0"
+  },
+  "back_layers": [
+    {
+      "velocity_x": "0",
+      "x": "0",
+      "y": "0",
+      "sprites": {
+        "type": "image",
+        "path": "background.png"
+      }
+    },
+    {
+      "velocity_x": "0",
+      "velocity_y": "2",
+      "x": "50",
+      "y": "0",
+      "separation_x": "1500",
+      "animation_velocity": "5",
+      "sprites": [
+        {
+          "type": "image",
+          "path": "big_platform.png"
+        }
+      ],
+      "modifiers": [
+        {
+          "at": "0",
+          "velocity_y": "2"
+        },
+        {
+          "at": "240",
+          "velocity_y": "-2"
+        },
+        {
+          "at": "480",
+          "frame": "0",
+          "velocity_y": "2"
+        }
+      ],
+      "bounds": {
+        "is_active": "yes",
+        "x": "0",
+        "y": "0",
+        "width": "500",
+        "height": "500"
+      }
+    },
+    {
+      "velocity_x": "0",
+      "velocity_y": "2",
+      "x": "600",
+      "y": "0",
+      "separation_x": "1500",
+      "animation_velocity": "5",
+      "sprites": [
+        {
+          "type": "image",
+          "path": "small_platform.png"
+        }
+      ],
+      "modifiers": [
+        {
+          "at": "0",
+          "velocity_x": "0",
+          "velocity_y": "3"
+        },
+        {
+          "at": "260",
+          "velocity_x": "3",
+          "velocity_y": "0"
+        },
+        {
+          "at": "390",
+          "velocity_y": "-3",
+          "velocity_x": "0"
+        },
+        {
+          "at": "650",
+          "velocity_y": "0",
+          "velocity_x": "-3"
+        },
+        {
+          "at": "780",
+          "frame": "0"
+        }
+      ],
+      "bounds": {
+        "is_active": "yes",
+        "x": "0",
+        "y": "0",
+        "width": "300",
+        "height": "200"
+      }
+    },
+    {
+      "velocity_x": "0",
+      "velocity_y": "2",
+      "x": "990",
+      "y": "780",
+      "separation_x": "1500",
+      "animation_velocity": "5",
+      "sprites": [
+        {
+          "type": "image",
+          "path": "small_platform.png"
+        }
+      ],
+      "modifiers": [
+        {
+          "at": "0",
+          "velocity_x": "0",
+          "velocity_y": "-3"
+        },
+        {
+          "at": "260",
+          "velocity_x": "-3",
+          "velocity_y": "0"
+        },
+        {
+          "at": "390",
+          "velocity_x": "0",
+          "velocity_y": "3"
+        },
+        {
+          "at": "650",
+          "velocity_x": "3",
+          "velocity_y": "0"
+        },
+        {
+          "at": "780",
+          "frame": "0"
+        }
+      ],
+      "bounds": {
+        "is_active": "yes",
+        "x": "0",
+        "y": "0",
+        "width": "300",
+        "height": "200"
+      }
+    }
+  ]
+}

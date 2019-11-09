@@ -1,0 +1,41 @@
+{
+"attacks":
+[
+  {
+    "name": "primary",
+    "patterns": [
+      {
+        "bullet": "My Bullet",
+        "animation_velocity": "5",
+        "angle": "0",
+        "random_angle": "0",
+        "velocity": "20",
+        "max_velocity": "25",
+        "acceleration": "0",
+        "a_frequency": "0",
+        "cooldown": "7",
+        "offset_x": "113",
+        "offset_y": "-29"
+      }
+    ]
+  },
+  {
+    "name": "secondary",
+    "patterns": [
+      {
+        "bullet": "My Bullet",
+        "animation_velocity": "5",
+        "angle": "45",
+        "random_angle": "0",
+        "velocity": "20",
+        "max_velocity": "25",
+        "acceleration": "0",
+        "a_frequency": "0",
+        "cooldown": "15",
+        "offset_x": "60",
+        "offset_y": "0"
+      }
+    ]
+  }
+]
+}

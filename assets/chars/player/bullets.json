@@ -1,0 +1,32 @@
+{
+"bullets":
+[
+  {
+    "name": "My Bullet",
+    "damage": "1",
+    "sound OPTIONAL": {
+      "channel": "-1",
+      "path": "sounds/shoot.ogg"
+    },
+    "sprites": [
+      {
+        "path": "bullet.png"
+      }
+    ],
+    "on_hit_sprites": [
+      {
+        "path": "on_hit.png"
+      }
+    ],
+    "hitboxes": [
+      {
+        "x": "-16",
+        "y": "-4",
+        "width": "32",
+        "height": "8",
+        "angle": "0"
+      }
+    ]
+  }
+]
+}
