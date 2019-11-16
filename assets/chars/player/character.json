@@ -1,6 +1,6 @@
 {
-  "velocity": "6",
-  "animation_velocity": "15",
+  "velocity": "2",
+  "animation_velocity": "4",
   "hp": "4",
   "initial_position": {
     "x": "100",
@@ -23,13 +23,30 @@
   },
   "states": [
     {
+      "name": "startz",
+      "sprites": [
+        {
+          "path": "01.png"
+        },
+        {
+          "path": "02.png"
+        },
+        {
+          "path": "03.png"
+        }
+      ]
+    },
+    {
       "name": "start",
       "sprites": [
         {
-          "path": "ship01.png"
+          "path": "up_down/01.png"
         },
         {
-          "path": "ship02.png"
+          "path": "up_down/02.png"
+        },
+        {
+          "path": "up_down/03.png"
         }
       ]
     },
