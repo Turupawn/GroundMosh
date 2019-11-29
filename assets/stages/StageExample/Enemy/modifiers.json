@@ -3,28 +3,28 @@
 [
   {
     "at": "0",
-    "velocity": "0",
-    "angle": "180"
+    "velocity": "1",
+    "angle_change": "6"
   },
   {
     "at": "125",
-    "velocity": "0",
-    "angle_change": "0"
+    "velocity": "1",
+    "angle_change": "6"
   },
   {
-    "at": "2000",
+    "at": "200",
     "pattern_type": "A"
   },
   {
-    "life_at": "7500",
+    "life_at": "750",
     "pattern_type": "B"
   },
   {
-    "life_at": "5000",
+    "life_at": "500",
     "pattern_type": "C"
   },
   {
-    "life_at": "3000",
+    "life_at": "300",
     "pattern_type": "D"
   }
 ]

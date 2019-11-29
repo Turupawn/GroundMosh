@@ -1,10 +1,10 @@
 {
-  "velocity": "2",
+  "velocity": "5",
   "animation_velocity": "4",
   "hp": "4",
   "initial_position": {
-    "x": "100",
-    "y": "500"
+    "x": "150",
+    "y": "150"
   },
   "sounds": {
     "hit": "sounds/hit.ogg"
@@ -40,13 +40,153 @@
       "name": "start",
       "sprites": [
         {
-          "path": "up_down/01.png"
+          "path": "idle/01.png"
         },
         {
-          "path": "up_down/02.png"
+          "path": "idle/02.png"
         },
         {
-          "path": "up_down/03.png"
+          "path": "idle/03.png"
+        }
+      ]
+    },
+    {
+      "name": "up",
+      "sprites": [
+        {
+          "path": "up/01.png"
+        },
+        {
+          "path": "up/02.png"
+        },
+        {
+          "path": "up/03.png"
+        }
+      ]
+    },
+    {
+      "name": "down",
+      "sprites": [
+        {
+          "path": "down/01.png"
+        },
+        {
+          "path": "down/02.png"
+        },
+        {
+          "path": "down/03.png"
+        }
+      ]
+    },
+    {
+      "name": "after up/down",
+      "sprites": [
+        {
+          "path": "idle/01.png"
+        },
+        {
+          "path": "idle/02.png"
+        },
+        {
+          "path": "idle/03.png"
+        }
+      ]
+    },
+    {
+      "name": "left",
+      "sprites": [
+        {
+          "path": "left/01.png"
+        },
+        {
+          "path": "left/02.png"
+        },
+        {
+          "path": "left/03.png"
+        }
+      ]
+    },
+    {
+      "name": "right",
+      "sprites": [
+        {
+          "path": "right/01.png"
+        },
+        {
+          "path": "right/02.png"
+        },
+        {
+          "path": "right/03.png"
+        }
+      ]
+    },
+    {
+      "name": "after left/right",
+      "sprites": [
+        {
+          "path": "idle/01.png"
+        },
+        {
+          "path": "idle/02.png"
+        },
+        {
+          "path": "idle/03.png"
+        }
+      ]
+    },
+    {
+      "name": "dash up",
+      "sprites": [
+        {
+          "path": "dash_up/01.png"
+        },
+        {
+          "path": "dash_up/02.png"
+        },
+        {
+          "path": "dash_up/03.png"
+        }
+      ]
+    },
+    {
+      "name": "dash down",
+      "sprites": [
+        {
+          "path": "dash_down/01.png"
+        },
+        {
+          "path": "dash_down/02.png"
+        },
+        {
+          "path": "dash_down/03.png"
+        }
+      ]
+    },
+    {
+      "name": "dash left",
+      "sprites": [
+        {
+          "path": "dash_left/01.png"
+        },
+        {
+          "path": "dash_left/02.png"
+        },
+        {
+          "path": "dash_left/03.png"
+        }
+      ]
+    },
+    {
+      "name": "dash right",
+      "sprites": [
+        {
+          "path": "dash_right/01.png"
+        },
+        {
+          "path": "dash_right/02.png"
+        },
+        {
+          "path": "dash_right/03.png"
         }
       ]
     },
@@ -61,10 +201,10 @@
   ],
   "hitboxes": [
     {
-      "x": "-75",
-      "y": "-20",
-      "width": "150",
-      "height": "40",
+      "x": "-50",
+      "y": "-50",
+      "width": "90",
+      "height": "60",
       "angle": "0"
     }
   ],

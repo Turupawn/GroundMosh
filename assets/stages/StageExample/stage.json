@@ -20,30 +20,75 @@
     },
     {
       "velocity_x": "0",
-      "velocity_y": "2",
-      "x": "50",
-      "y": "0",
+      "velocity_y": "0",
+      "x": "1500",
+      "y": "1000",
+      "separation_x": "2000",
+      "animation_velocity": "5",
+      "sprites": [
+        {
+          "type": "image",
+          "path": "rubbish_01/01.png"
+        },
+        {
+          "type": "image",
+          "path": "rubbish_01/02.png"
+        },
+        {
+          "type": "image",
+          "path": "rubbish_01/03.png"
+        },
+        {
+          "type": "image",
+          "path": "rubbish_01/04.png"
+        },
+        {
+          "type": "image",
+          "path": "rubbish_01/05.png"
+        }
+      ]
+    },
+    {
+      "velocity_x": "0",
+      "velocity_y": "0",
+      "x": "1700",
+      "y": "1000",
+      "separation_x": "2000",
+      "animation_velocity": "5",
+      "sprites": [
+        {
+          "type": "image",
+          "path": "rubbish_02/01.png"
+        },
+        {
+          "type": "image",
+          "path": "rubbish_02/02.png"
+        },
+        {
+          "type": "image",
+          "path": "rubbish_02/03.png"
+        },
+        {
+          "type": "image",
+          "path": "rubbish_02/04.png"
+        },
+        {
+          "type": "image",
+          "path": "rubbish_02/05.png"
+        }
+      ]
+    },
+    {
+      "velocity_x": "0",
+      "velocity_y": "0",
+      "x": "0",
+      "y": "1080",
       "separation_x": "1500",
       "animation_velocity": "5",
       "sprites": [
         {
           "type": "image",
-          "path": "big_platform.png"
-        }
-      ],
-      "modifiers": [
-        {
-          "at": "0",
-          "velocity_y": "2"
-        },
-        {
-          "at": "240",
-          "velocity_y": "-2"
-        },
-        {
-          "at": "480",
-          "frame": "0",
-          "velocity_y": "2"
+          "path": "transparent.png"
         }
       ],
       "bounds": {
@@ -51,102 +96,145 @@
         "x": "0",
         "y": "0",
         "width": "500",
-        "height": "400"
+        "height": "340"
       }
     },
     {
       "velocity_x": "0",
-      "velocity_y": "2",
-      "x": "600",
+      "velocity_y": "0",
+      "x": "0",
+      "y": "1080",
+      "separation_x": "1500",
+      "animation_velocity": "5",
+      "sprites": [
+        {
+          "type": "image",
+          "path": "transparent.png"
+        }
+      ],
+      "bounds": {
+        "is_active": "yes",
+        "x": "0",
+        "y": "0",
+        "width": "560",
+        "height": "260"
+      }
+    },
+    {
+      "velocity_x": "0",
+      "velocity_y": "0",
+      "x": "0",
+      "y": "1080",
+      "separation_x": "1500",
+      "animation_velocity": "5",
+      "sprites": [
+        {
+          "type": "image",
+          "path": "transparent.png"
+        }
+      ],
+      "bounds": {
+        "is_active": "yes",
+        "x": "0",
+        "y": "0",
+        "width": "620",
+        "height": "100"
+      }
+    },
+    {
+      "velocity_x": "0",
+      "velocity_y": "0",
+      "x": "0",
+      "y": "1080",
+      "separation_x": "1500",
+      "animation_velocity": "5",
+      "sprites": [
+        {
+          "type": "image",
+          "path": "transparent.png"
+        }
+      ],
+      "bounds": {
+        "is_active": "yes",
+        "x": "0",
+        "y": "0",
+        "width": "200",
+        "height": "450"
+      }
+    },
+    {
+      "velocity_x": "2",
+      "velocity_y": "0",
+      "x": "50",
       "y": "0",
       "separation_x": "1500",
       "animation_velocity": "5",
       "sprites": [
         {
           "type": "image",
-          "path": "small_platform.png"
+          "path": "platform.png"
         }
       ],
       "modifiers": [
         {
           "at": "0",
-          "velocity_x": "0",
-          "velocity_y": "3"
+          "velocity_x": "2"
         },
         {
-          "at": "260",
-          "velocity_x": "3",
-          "velocity_y": "0"
+          "at": "100",
+          "velocity_x": "-2"
         },
         {
-          "at": "390",
-          "velocity_y": "-3",
-          "velocity_x": "0"
-        },
-        {
-          "at": "650",
-          "velocity_y": "0",
-          "velocity_x": "-3"
-        },
-        {
-          "at": "780",
-          "frame": "0"
+          "at": "200",
+          "frame": "0",
+          "velocity_x": "2"
         }
       ],
       "bounds": {
         "is_active": "yes",
-        "x": "0",
+        "x": "60",
         "y": "0",
-        "width": "300",
-        "height": "200"
+        "width": "410",
+        "height": "390"
       }
     },
     {
       "velocity_x": "0",
       "velocity_y": "2",
-      "x": "990",
-      "y": "780",
+      "x": "800",
+      "y": "0",
       "separation_x": "1500",
       "animation_velocity": "5",
       "sprites": [
         {
           "type": "image",
-          "path": "small_platform.png"
+          "path": "platform.png"
         }
       ],
       "modifiers": [
         {
           "at": "0",
           "velocity_x": "0",
-          "velocity_y": "-3"
-        },
-        {
-          "at": "260",
-          "velocity_x": "-3",
-          "velocity_y": "0"
-        },
-        {
-          "at": "390",
-          "velocity_x": "0",
           "velocity_y": "3"
         },
         {
-          "at": "650",
-          "velocity_x": "3",
-          "velocity_y": "0"
+          "at": "260",
+          "velocity_x": "0",
+          "velocity_y": "-3"
         },
         {
-          "at": "780",
+          "at": "520",
           "frame": "0"
         }
       ],
       "bounds": {
         "is_active": "yes",
-        "x": "0",
+        "x": "60",
         "y": "0",
-        "width": "300",
-        "height": "200"
+        "width": "410",
+        "height": "390"
       }
     }
   ]
 }
+2

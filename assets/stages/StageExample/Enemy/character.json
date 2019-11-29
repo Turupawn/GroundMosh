@@ -4,7 +4,7 @@
   "hp": "1000",
   "initial_position": {
     "x": "1600",
-    "y": "400"
+    "y": "550"
   },
   "sounds": {
     "hit": "sounds/hit.ogg"
@@ -26,7 +26,10 @@
       "name": "start",
       "sprites": [
         {
-          "path": "enemy.png"
+          "path": "01.png"
+        },
+        {
+          "path": "02.png"
         }
       ]
     },
@@ -34,7 +37,7 @@
       "name": "destroyed",
       "sprites": [
         {
-          "path": "enemy.png"
+          "path": "01.png"
         }
       ]
     }

@@ -5,7 +5,7 @@
     "name": "primary",
     "patterns": [
       {
-        "bullet": "My Bullet",
+        "bullet": "rocket",
         "animation_velocity": "5",
         "angle": "-15",
         "random_angle": "30",
@@ -14,8 +14,8 @@
         "acceleration": "0",
         "a_frequency": "0",
         "cooldown": "2",
-        "offset_x": "113",
-        "offset_y": "-29"
+        "offset_x": "80",
+        "offset_y": "45"
       }
     ]
   },
@@ -23,7 +23,7 @@
     "name": "secondary",
     "patterns": [
       {
-        "bullet": "My Bullet",
+        "bullet": "spike",
         "animation_velocity": "5",
         "angle": "0",
         "random_angle": "0",
@@ -32,8 +32,8 @@
         "acceleration": "0",
         "a_frequency": "0",
         "cooldown": "2",
-        "offset_x": "60",
-        "offset_y": "0",
+        "offset_x": "80",
+        "offset_y": "45",
         "player_velocity_override": "2"
       }
     ]
