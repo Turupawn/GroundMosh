@@ -1,5 +1,7 @@
 {
-  "velocity": "5",
+  "velocity": "7",
+  "primary_weapon_velocity": "7",
+  "secondary_weapon_velocity": "4",
   "animation_velocity": "4",
   "hp": "4",
   "initial_position": {

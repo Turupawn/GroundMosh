@@ -7,7 +7,10 @@
   "stages": {
     "stage": [
       {
-        "name": "StageExample"
+        "name": "Easy"
+      },
+      {
+        "name": "Hard"
       }
     ]
   },
