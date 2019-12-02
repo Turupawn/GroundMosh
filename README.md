@@ -7,13 +7,13 @@ Shoot'em up game with platforms! Control your **steampunk** tank and fight again
 
 ![Alt text](img/cover.png?raw=true)
 
-# Itch.io
+# Follow us on Itch.io
 
 [![Alt text](img/itch_link.png?raw=true)](https://turupawn.itch.io/ground-mosh)
 
 _The demo is now playable on itch.io_
 
-# Youtube
+# Gameplay video
 
 [![Alt text](img/youtube_link.png?raw=true)](https://www.youtube.com/watch?v=-7O7kV7iMwk)
 
