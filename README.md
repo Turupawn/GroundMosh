@@ -1,10 +1,23 @@
-# Rosalila STG Example
+# Ground Mosh [Beta]
+
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/Rosalila/STGExample/blob/master/LICENSE)
+[![Discord](https://img.shields.io/discord/650862206925275156.svg?label=Discord&logo=discord&color=7289DA&labelColor=2C2F33)](https://discord.mod.io)
 
-Minimal [Rosalila STG](https://github.com/Rosalila/STG) project setup.
+Shoot'em up game with platforms! Control your **steampunk** tank and fight against a **cyberpunk** bosses.
 
-![Alt text](img/screenshot.png?raw=true)
-_Full functioning STG containing a playable character and an enemy boss_
+![Alt text](img/cover.png?raw=true)
+
+# Itch.io
+
+![Alt text](img/itch_link.png?raw=true)
+
+_The demo is now playable on itch.io_
+
+# Youtube
+
+![Alt text](img/youtube_link.png?raw=true)
+
+_Youtube demo video_
 
 # Running
 
@@ -20,6 +33,10 @@ On Windows:
 shmup.exe
 ```
 
-# Going further
+On MacOs:
 
-Take a look at the [Usage Guide](https://github.com/Rosalila/STG#usage) and start creating your shmup.
+The Mac build is a WIP.
+
+# Shoot'Em Up Maker
+
+This game was created with the [Shoot'Em Up Maker](https://github.com/Rosalila/STG#usage). Take a look at the [Usage Guide](https://github.com/Rosalila/STG#usage) and start creating your shmup.
