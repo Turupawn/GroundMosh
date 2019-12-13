@@ -1,7 +1,7 @@
 # Ground Mosh [Beta]
 
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/Rosalila/STGExample/blob/master/LICENSE)
-[![Discord](https://img.shields.io/discord/650862206925275156.svg?label=Discord&logo=discord&color=7289DA&labelColor=2C2F33)](https://discord.mod.io)
+[![Discord](https://img.shields.io/discord/650862206925275156.svg?label=Discord&logo=discord&color=7289DA&labelColor=2C2F33)](https://discord.gg/fGBbQZ8)
 
 Shoot'em up game with platforms! Control your **steampunk** tank and fight against a **cyberpunk** bosses.
 
