@@ -41,10 +41,10 @@ The Mac build is a WIP.
 
 This game was created with the [Shoot'Em Up Maker](https://github.com/Rosalila/STG#usage). Take a look at the [Usage Guide](https://github.com/Rosalila/STG#usage) and start creating your shmup.
 
-# Become part of the project
+# Contributions welcome
 
 Ground Mosh development is ruled by an horizontal organization. As a contributor, keep in mind the following process designed to power open source comercial projects:
 
 1. Earnings and other resources will be distributed according to our internal **peer reviewing system**.
 2. Our peer reviewing system is based on **meritocratic values**. The bigger your engagement and contributions are, the bigger your voice will be heard.
-3. Only a selected group of **reviewers** will be allowed to peer review all participants. Anyone can apply via [discord](https://discord.gg/fGBbQZ8).
+3. Only a selected group of **reviewers** will be allowed to peer review all participants. After significant contributions, anyone can apply via [discord](https://discord.gg/fGBbQZ8).
