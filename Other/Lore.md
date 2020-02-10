@@ -16,7 +16,7 @@
   * Has the power of the sea
   * Quiet
   * Likes walking on the woods and apothecary
-  * Dense enough for realising that Witz likes her
+  * Dense, doen't realises Witz likes her
 
 Weaponery
 
