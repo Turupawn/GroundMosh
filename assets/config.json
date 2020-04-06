@@ -23,7 +23,7 @@
     "y": "1080"
   },
   "fullscreen": {
-    "enabled": "yes"
+    "enabled": "no"
   },
   "font": {
     "path": "assets/font.ttf",
@@ -71,6 +71,10 @@
               "key": "c"
             },
             {
+              "name": "d",
+              "key": "v"
+            },
+            {
               "name": "back",
               "key": "q"
             }
@@ -106,6 +110,10 @@
             {
               "name": "c",
               "key": "3"
+            },
+            {
+              "name": "d",
+              "key": "4"
             },
             {
               "name": "back",
