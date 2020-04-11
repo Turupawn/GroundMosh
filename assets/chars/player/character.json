@@ -1,5 +1,6 @@
 {
   "velocity": "7",
+  "dash_velocity": "23",
   "slow": {
     "max": "1000",
     "decrement": "4",
