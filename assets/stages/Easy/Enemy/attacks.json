@@ -2,71 +2,6 @@
   "attacks":
   [
     {
-      "name": "X",
-      "patterns": {
-        "bullet": "ball",
-        "angle": "0",
-        "random_angle": "10",
-        "random_ac": "3",
-        "animation_velocity": "6",
-        "offset_x": "-60",
-        "offset_y": "161",
-        "velocity": "7",
-        "max_velocity": "14",
-        "cooldown": "200",
-        "homming": "1",
-        "aim_player": "yes"
-      },
-      "repeat": [
-        {
-          "amount": "45",
-          "angle": "8",
-          "patterns": {
-            "bullet": "ball",
-            "angle": "-5",
-            "random_angle": "0",
-            "random_ac": "0",
-            "animation_velocity": "6",
-            "offset_x": "-60",
-            "offset_y": "161",
-            "velocity": "2",
-            "max_velocity": "14",
-            "cooldown": "120",
-            "aim_player": "yes",
-            "modifiers":
-            {
-              "at": "20",
-              "angle_change": "1",
-              "ac_frequency": "10"
-            }
-          }
-        },
-        {
-          "amount": "45",
-          "angle": "8",
-          "patterns": {
-            "bullet": "ball",
-            "angle": "-5",
-            "random_angle": "0",
-            "random_ac": "0",
-            "animation_velocity": "6",
-            "offset_x": "-60",
-            "offset_y": "161",
-            "velocity": "2",
-            "max_velocity": "14",
-            "cooldown": "120",
-            "aim_player": "yes",
-            "modifiers":
-            {
-              "at": "20",
-              "angle_change": "-1",
-              "ac_frequency": "10"
-            }
-          }
-        }
-      ]
-    },
-    {
       "name": "A",
       "repeat": [
         {
@@ -180,43 +115,9 @@
       "name": "C",
       "repeat": [
         {
-          "amount": "30",
-          "startup": "3",
-          "angle": "1",
-          "patterns": {
-            "bullet": "ball",
-            "animation_velocity": "6",
-            "velocity": "6",
-            "max_velocity": "14",
-            "cooldown": "400",
-            "aim_player": "no",
-            "angle": "165"
-          }
-        },
-        {
-          "amount": "30",
-          "startup": "3",
-          "angle": "-1",
-          "patterns": {
-            "bullet": "ball",
-            "animation_velocity": "6",
-            "velocity": "6",
-            "max_velocity": "14",
-            "startup": "150",
-            "cooldown": "400",
-            "aim_player": "no",
-            "angle": "195"
-          }
-        }
-      ]
-    },
-    {
-      "name": "D",
-      "repeat": [
-        {
           "startup": "1",
-          "angle": "36",
-          "amount": "10",
+          "angle": "30",
+          "amount": "30",
           "patterns": {
             "bullet": "lazer",
             "animation_velocity": "6",
@@ -224,14 +125,14 @@
             "offset_y": "120",
             "velocity": "5",
             "max_velocity": "14",
-            "cooldown": "200",
+            "cooldown": "500",
             "aim_player": "yes"
           }
         },
         {
           "startup": "1",
-          "angle": "36",
-          "amount": "10",
+          "angle": "30",
+          "amount": "30",
           "patterns": {
             "bullet": "lazer",
             "animation_velocity": "6",
@@ -239,7 +140,7 @@
             "offset_y": "-235",
             "velocity": "5",
             "max_velocity": "14",
-            "cooldown": "200",
+            "cooldown": "500",
             "aim_player": "yes"
           }
         }
@@ -255,7 +156,7 @@
           "max_velocity": "14",
           "aim_player": "no",
           "random_angle": "360",
-          "cooldown": "15"
+          "cooldown": "8"
         },
         {
           "bullet": "ball",
@@ -266,345 +167,42 @@
           "max_velocity": "14",
           "aim_player": "no",
           "random_angle": "360",
-          "cooldown": "15"
+          "cooldown": "8"
         }
       ]
     },
     {
       "name": "D",
+      "repeat":
+      {
+        "amount": "5",
+        "startup": "4",
+        "patterns": {
+          "startup": "10",
+          "bullet": "ball",
+          "angle": "0",
+          "random_angle": "0",
+          "random_ac": "0",
+          "animation_velocity": "6",
+          "offset_x": "-60",
+          "offset_y": "140",
+          "velocity": "6",
+          "cooldown": "200",
+          "homing": "yes",
+          "modifiers":
+          {
+            "at": "200",
+            "velocity": "4",
+            "homing": "no"
+          }
+        }
+      }
+    },
+    {
+      "name": "D2",
       "repeat": [
         {
-          "amount": "10",
-          "startup": "3",
-          "patterns": {
-            "bullet": "ball",
-            "angle": "-0",
-            "animation_velocity": "6",
-            "offset_x": "-350",
-            "offset_y": "120",
-            "velocity": "15",
-            "max_velocity": "14",
-            "cooldown": "200",
-            "aim_player": "yes"
-          }
-        },
-        {
-          "amount": "10",
-          "startup": "3",
-          "patterns": {
-            "bullet": "ball",
-            "angle": "-0",
-            "animation_velocity": "6",
-            "offset_x": "-350",
-            "offset_y": "-235",
-            "velocity": "15",
-            "max_velocity": "14",
-            "cooldown": "200",
-            "aim_player": "yes"
-          }
-        },
-        {
-          "amount": "10",
-          "startup": "3",
-          "patterns": {
-            "bullet": "ball",
-            "angle": "-30",
-            "animation_velocity": "6",
-            "offset_x": "-350",
-            "offset_y": "120",
-            "velocity": "15",
-            "max_velocity": "14",
-            "cooldown": "200",
-            "aim_player": "yes"
-          }
-        },
-        {
-          "amount": "10",
-          "startup": "3",
-          "patterns": {
-            "bullet": "ball",
-            "angle": "30",
-            "animation_velocity": "6",
-            "offset_x": "-350",
-            "offset_y": "-235",
-            "velocity": "15",
-            "max_velocity": "14",
-            "cooldown": "200",
-            "aim_player": "yes"
-          }
-        },
-
-
-
-
-
-        {
-          "amount": "7",
-          "startup": "3",
-          "patterns": {
-            "startup": "5",
-            "bullet": "ball",
-            "angle": "-10",
-            "animation_velocity": "6",
-            "offset_x": "-350",
-            "offset_y": "120",
-            "velocity": "15",
-            "max_velocity": "14",
-            "cooldown": "200",
-            "aim_player": "yes"
-          }
-        },
-        {
-          "amount": "7",
-          "startup": "3",
-          "patterns": {
-            "startup": "5",
-            "bullet": "ball",
-            "angle": "10",
-            "animation_velocity": "6",
-            "offset_x": "-350",
-            "offset_y": "-235",
-            "velocity": "15",
-            "max_velocity": "14",
-            "cooldown": "200",
-            "aim_player": "yes"
-          }
-        },
-        {
-          "amount": "7",
-          "startup": "3",
-          "patterns": {
-            "startup": "5",
-            "bullet": "ball",
-            "angle": "-40",
-            "animation_velocity": "6",
-            "offset_x": "-350",
-            "offset_y": "120",
-            "velocity": "15",
-            "max_velocity": "14",
-            "cooldown": "200",
-            "aim_player": "yes"
-          }
-        },
-        {
-          "amount": "7",
-          "startup": "3",
-          "patterns": {
-            "startup": "5",
-            "bullet": "ball",
-            "angle": "40",
-            "animation_velocity": "6",
-            "offset_x": "-350",
-            "offset_y": "-235",
-            "velocity": "15",
-            "max_velocity": "14",
-            "cooldown": "200",
-            "aim_player": "yes"
-          }
-        },
-        {
-          "amount": "7",
-          "startup": "3",
-          "patterns": {
-            "startup": "5",
-            "bullet": "ball",
-            "angle": "-70",
-            "animation_velocity": "6",
-            "offset_x": "-350",
-            "offset_y": "120",
-            "velocity": "15",
-            "max_velocity": "14",
-            "cooldown": "200",
-            "aim_player": "yes"
-          }
-        },
-        {
-          "amount": "7",
-          "startup": "3",
-          "patterns": {
-            "startup": "5",
-            "bullet": "ball",
-            "angle": "70",
-            "animation_velocity": "6",
-            "offset_x": "-350",
-            "offset_y": "-235",
-            "velocity": "15",
-            "max_velocity": "14",
-            "cooldown": "200",
-            "aim_player": "yes"
-          }
-        },
-        {
-          "amount": "7",
-          "startup": "3",
-          "patterns": {
-            "startup": "5",
-            "bullet": "ball",
-            "angle": "-100",
-            "animation_velocity": "6",
-            "offset_x": "-350",
-            "offset_y": "120",
-            "velocity": "15",
-            "max_velocity": "14",
-            "cooldown": "200",
-            "aim_player": "yes"
-          }
-        },
-        {
-          "amount": "7",
-          "startup": "3",
-          "patterns": {
-            "startup": "5",
-            "bullet": "ball",
-            "angle": "100",
-            "animation_velocity": "6",
-            "offset_x": "-350",
-            "offset_y": "-235",
-            "velocity": "15",
-            "max_velocity": "14",
-            "cooldown": "200",
-            "aim_player": "yes"
-          }
-        },
-
-
-
-
-        {
-          "amount": "7",
-          "startup": "3",
-          "patterns": {
-            "startup": "80",
-            "bullet": "ball",
-            "angle": "-10",
-            "animation_velocity": "6",
-            "offset_x": "-350",
-            "offset_y": "120",
-            "velocity": "15",
-            "max_velocity": "14",
-            "cooldown": "200",
-            "aim_player": "yes"
-          }
-        },
-        {
-          "amount": "7",
-          "startup": "3",
-          "patterns": {
-            "startup": "80",
-            "bullet": "ball",
-            "angle": "10",
-            "animation_velocity": "6",
-            "offset_x": "-350",
-            "offset_y": "-235",
-            "velocity": "15",
-            "max_velocity": "14",
-            "cooldown": "200",
-            "aim_player": "yes"
-          }
-        },
-        {
-          "amount": "7",
-          "startup": "3",
-          "patterns": {
-            "startup": "80",
-            "bullet": "ball",
-            "angle": "-40",
-            "animation_velocity": "6",
-            "offset_x": "-350",
-            "offset_y": "120",
-            "velocity": "15",
-            "max_velocity": "14",
-            "cooldown": "200",
-            "aim_player": "yes"
-          }
-        },
-        {
-          "amount": "7",
-          "startup": "3",
-          "patterns": {
-            "startup": "80",
-            "bullet": "ball",
-            "angle": "40",
-            "animation_velocity": "6",
-            "offset_x": "-350",
-            "offset_y": "-235",
-            "velocity": "15",
-            "max_velocity": "14",
-            "cooldown": "200",
-            "aim_player": "yes"
-          }
-        },
-        {
-          "amount": "7",
-          "startup": "3",
-          "patterns": {
-            "startup": "80",
-            "bullet": "ball",
-            "angle": "-70",
-            "animation_velocity": "6",
-            "offset_x": "-350",
-            "offset_y": "120",
-            "velocity": "15",
-            "max_velocity": "14",
-            "cooldown": "200",
-            "aim_player": "yes"
-          }
-        },
-        {
-          "amount": "7",
-          "startup": "3",
-          "patterns": {
-            "startup": "80",
-            "bullet": "ball",
-            "angle": "70",
-            "animation_velocity": "6",
-            "offset_x": "-350",
-            "offset_y": "-235",
-            "velocity": "15",
-            "max_velocity": "14",
-            "cooldown": "200",
-            "aim_player": "yes"
-          }
-        },
-        {
-          "amount": "7",
-          "startup": "3",
-          "patterns": {
-            "startup": "80",
-            "bullet": "ball",
-            "angle": "-100",
-            "animation_velocity": "6",
-            "offset_x": "-350",
-            "offset_y": "120",
-            "velocity": "15",
-            "max_velocity": "14",
-            "cooldown": "200",
-            "aim_player": "yes"
-          }
-        },
-        {
-          "amount": "7",
-          "startup": "3",
-          "patterns": {
-            "startup": "80",
-            "bullet": "ball",
-            "angle": "100",
-            "animation_velocity": "6",
-            "offset_x": "-350",
-            "offset_y": "-235",
-            "velocity": "15",
-            "max_velocity": "14",
-            "cooldown": "200",
-            "aim_player": "yes"
-          }
-        },
-
-
-
-
-
-        {
-          "amount": "30",
+          "amount": "20",
           "startup": "2",
           "angle": "1",
           "patterns": {
@@ -621,7 +219,7 @@
           }
         },
         {
-          "amount": "30",
+          "amount": "20",
           "startup": "2",
           "angle": "-1",
           "patterns": {
@@ -643,56 +241,32 @@
       "name": "E",
       "repeat": [
         {
-          "amount": "45",
-          "angle": "8",
+          "amount": "30",
+          "startup": "3",
+          "angle": "1",
           "patterns": {
-            "startup": "10",
             "bullet": "ball",
-            "angle": "0",
-            "random_angle": "0",
-            "random_ac": "0",
             "animation_velocity": "6",
-            "offset_x": "-60",
-            "offset_y": "140",
-            "velocity": "9",
+            "velocity": "6",
             "max_velocity": "14",
-            "cooldown": "50",
-            "aim_player": "yes"
+            "cooldown": "300",
+            "aim_player": "no",
+            "angle": "165"
           }
         },
         {
-          "amount": "45",
-          "angle": "8",
+          "amount": "30",
+          "startup": "3",
+          "angle": "-1",
           "patterns": {
             "bullet": "ball",
-            "angle": "5",
-            "random_angle": "0",
-            "random_ac": "0",
             "animation_velocity": "6",
-            "offset_x": "-60",
-            "offset_y": "140",
-            "velocity": "9",
+            "velocity": "6",
             "max_velocity": "14",
-            "cooldown": "100",
-            "aim_player": "yes"
-          }
-        },
-        {
-          "amount": "45",
-          "angle": "8",
-          "patterns": {
-            "startup": "10",
-            "bullet": "ball",
-            "angle": "10",
-            "random_angle": "0",
-            "random_ac": "0",
-            "animation_velocity": "6",
-            "offset_x": "-60",
-            "offset_y": "140",
-            "velocity": "9",
-            "max_velocity": "14",
-            "cooldown": "40",
-            "aim_player": "yes"
+            "startup": "150",
+            "cooldown": "300",
+            "aim_player": "no",
+            "angle": "195"
           }
         }
       ]
@@ -712,8 +286,8 @@
             "animation_velocity": "6",
             "offset_x": "-60",
             "offset_y": "140",
-            "velocity": "9",
-            "cooldown": "50",
+            "velocity": "5",
+            "cooldown": "200",
             "aim_player": "no",
             "modifiers":
             {
@@ -721,6 +295,129 @@
               "angle": "0",
               "velocity": "15",
               "aim_player": "yes"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "G",
+      "repeat": [
+        {
+          "amount": "45",
+          "angle": "8",
+          "patterns": {
+            "startup": "70",
+            "bullet": "ball",
+            "angle": "0",
+            "random_angle": "0",
+            "random_ac": "0",
+            "animation_velocity": "6",
+            "offset_x": "-60",
+            "offset_y": "140",
+            "velocity": "6",
+            "max_velocity": "14",
+            "cooldown": "250",
+            "aim_player": "yes"
+          }
+        },
+        {
+          "amount": "45",
+          "angle": "8",
+          "patterns": {
+            "bullet": "ball",
+            "angle": "5",
+            "random_angle": "0",
+            "random_ac": "0",
+            "animation_velocity": "6",
+            "offset_x": "-60",
+            "offset_y": "140",
+            "velocity": "6",
+            "max_velocity": "14",
+            "cooldown": "200",
+            "aim_player": "yes"
+          }
+        },
+        {
+          "amount": "45",
+          "angle": "8",
+          "patterns": {
+            "startup": "190",
+            "bullet": "ball",
+            "angle": "10",
+            "random_angle": "0",
+            "random_ac": "0",
+            "animation_velocity": "6",
+            "offset_x": "-60",
+            "offset_y": "140",
+            "velocity": "6",
+            "max_velocity": "14",
+            "cooldown": "120",
+            "aim_player": "yes"
+          }
+        }
+      ]
+    },
+    {
+      "name": "H",
+      "patterns": {
+        "bullet": "ball",
+        "angle": "0",
+        "random_angle": "10",
+        "random_ac": "3",
+        "animation_velocity": "6",
+        "offset_x": "-60",
+        "offset_y": "161",
+        "velocity": "3",
+        "max_velocity": "14",
+        "cooldown": "800",
+        "homing": "yes",
+        "aim_player": "yes"
+      },
+      "repeat": [
+        {
+          "amount": "36",
+          "angle": "10",
+          "patterns": {
+            "bullet": "ball",
+            "angle": "-5",
+            "random_angle": "0",
+            "random_ac": "0",
+            "animation_velocity": "6",
+            "offset_x": "-60",
+            "offset_y": "161",
+            "velocity": "2",
+            "max_velocity": "14",
+            "cooldown": "300",
+            "aim_player": "yes",
+            "modifiers":
+            {
+              "at": "20",
+              "angle_change": "1",
+              "ac_frequency": "10"
+            }
+          }
+        },
+        {
+          "amount": "36",
+          "angle": "10",
+          "patterns": {
+            "bullet": "ball",
+            "angle": "-5",
+            "random_angle": "0",
+            "random_ac": "0",
+            "animation_velocity": "6",
+            "offset_x": "-60",
+            "offset_y": "161",
+            "velocity": "2",
+            "max_velocity": "14",
+            "cooldown": "300",
+            "aim_player": "yes",
+            "modifiers":
+            {
+              "at": "20",
+              "angle_change": "-1",
+              "ac_frequency": "10"
             }
           }
         }
