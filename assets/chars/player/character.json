@@ -55,20 +55,6 @@
   },
   "states": [
     {
-      "name": "startz",
-      "sprites": [
-        {
-          "path": "01.png"
-        },
-        {
-          "path": "02.png"
-        },
-        {
-          "path": "03.png"
-        }
-      ]
-    },
-    {
       "name": "start",
       "sprites": [
         {
@@ -226,7 +212,7 @@
       "name": "destroyed",
       "sprites": [
         {
-          "path": "ship01.png"
+          "path": "idle/01.png"
         }
       ]
     }
