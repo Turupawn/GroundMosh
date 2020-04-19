@@ -75,6 +75,10 @@
               "key": "v"
             },
             {
+              "name": "e",
+              "key": "b"
+            },
+            {
               "name": "back",
               "key": "q"
             }
@@ -114,6 +118,10 @@
             {
               "name": "d",
               "key": "4"
+            },
+            {
+              "name": "e",
+              "key": "5"
             },
             {
               "name": "back",
