@@ -29,8 +29,8 @@ jobs:
           PACKAGE: .
       - name: Prepare Windows upload
         run: |
-          mv ../game/**.exe .
-          mv ../game/**.dll .
+          mv ../**.exe ./game
+          mv ../**.dll ./game
           mv game/shmup ..
       - name: Upload Windows build
         uses: josephbmanley/butler-publish-itchio-action@master
