@@ -1,0 +1,41 @@
+Utility initialized.
+Initializing sound.
+Sound initialized.
+Initializing receiver.
+Parsing: ../assets/config.json
+Receiver initialized.
+Initializing API integrator.
+API integrator initialized.
+Initializing graphics.
+Initializing graphics
+Parsing config
+Parsing: ../assets/config.json
+Initializing SDL
+Setting up font
+Error: Could not init font.
+OpenGL stuff
+Windowed or fullscreen setup stuff
+More GL stuff
+GL flags setupY
+GL flags setupA
+GL flags setupB
+GL flags setupC
+GL flags setupD
+Setting up inputs
+Notifications
+Graphics initialization finished
+Parser graphics.
+Initializing networking.
+../assets/misc/messages/loading.png loaded
+../assets/misc/messages/error.png loaded
+../assets/misc/messages/sucess.png loaded
+Sound ../assets/menu/audio/back.ogg loaded
+Sound ../assets/menu/audio/confirm.ogg loaded
+Sound ../assets/menu/audio/down.ogg loaded
+Sound ../assets/menu/audio/left.ogg loaded
+Sound ../assets/menu/audio/right.ogg loaded
+Sound ../assets/menu/audio/up.ogg loaded
+Sound ../assets/menu/audio/invalid.ogg loaded
+../assets/menu/studio.png loaded
+../assets/menu/game_ilustration.png loaded
+Playing music: ../assets/intro.ogg
