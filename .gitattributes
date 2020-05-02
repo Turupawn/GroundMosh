@@ -1,0 +1,2 @@
+launcher-linux-x64/launcher filter=lfs diff=lfs merge=lfs -text
+launcher-linux-x64/resources/app.asar filter=lfs diff=lfs merge=lfs -text
