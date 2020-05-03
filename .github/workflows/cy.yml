@@ -17,8 +17,9 @@ jobs:
           rm -rf .github
       - name: Prepare Linux upload
         run: |
-          mv game/*.exe ..
-          mv game/*.dll ..
+          mv game/windows ..
+          mv launcher-win32-ia32 ..
+          mv launch_game.bat ..
       - name: Upload Linux build
         uses: josephbmanley/butler-publish-itchio-action@master
         env:
@@ -29,9 +30,12 @@ jobs:
           PACKAGE: .
       - name: Prepare Windows upload
         run: |
-          mv ../**.exe ./game
-          mv ../**.dll ./game
-          mv game/shmup ..
+          mv ../windows ./game
+          mv ../launcher-win32-ia32 .
+          mv ../launch_game.bat .
+          mv game/linux ..
+          mv launcher-linux-x64 ..
+          mv launch_game.sh ..
       - name: Upload Windows build
         uses: josephbmanley/butler-publish-itchio-action@master
         env:
