@@ -19,6 +19,16 @@
       }
     },
     {
+      "velocity": "0",
+      "x": "0",
+      "y": "0",
+      "type": "bomb",
+      "sprites": {
+        "type": "image",
+        "path": "background_bomb.png"
+      }
+    },
+    {
       "velocity": "2",
       "angle_change": "-3",
       "x": "100",
@@ -316,6 +326,36 @@
     },
     {
       "velocity": "2",
+      "angle": "0",
+      "x": "50",
+      "y": "0",
+      "separation_x": "1500",
+      "animation_velocity": "5",
+      "type": "bomb",
+      "sprites": [
+        {
+          "type": "image",
+          "path": "platform_bomb.png"
+        }
+      ],
+      "modifiers": [
+        {
+          "at": "0",
+          "angle": "0"
+        },
+        {
+          "at": "100",
+          "angle": "180"
+        },
+        {
+          "at": "200",
+          "frame": "0",
+          "angle": "0"
+        }
+      ]
+    },
+    {
+      "velocity": "2",
       "angle": "270",
       "x": "800",
       "y": "0",
@@ -348,6 +388,35 @@
         "width": "410",
         "height": "390"
       }
+    },
+    {
+      "velocity": "2",
+      "angle": "270",
+      "x": "800",
+      "y": "0",
+      "separation_x": "1500",
+      "animation_velocity": "5",
+      "type": "bomb",
+      "sprites": [
+        {
+          "type": "image",
+          "path": "platform_bomb.png"
+        }
+      ],
+      "modifiers": [
+        {
+          "at": "0",
+          "angle": "-90"
+        },
+        {
+          "at": "260",
+          "angle": "90"
+        },
+        {
+          "at": "520",
+          "frame": "0"
+        }
+      ]
     }
   ]
 }

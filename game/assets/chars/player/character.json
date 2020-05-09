@@ -30,7 +30,7 @@
     }
   },
   "primary_weapon_velocity": "7",
-  "secondary_weapon_velocity": "4",
+  "secondary_weapon_velocity": "7",
   "animation_velocity": "4",
   "hp": "4",
   "initial_position": {
