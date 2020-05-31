@@ -38,7 +38,7 @@
     "y": "150"
   },
   "sounds": {
-    "hit": "sounds/hit.ogg"
+    "hit": "sounds/hurt.wav"
   },
   "life_bar": {
     "image": "sprites/life_bar.png",

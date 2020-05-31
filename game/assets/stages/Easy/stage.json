@@ -209,91 +209,32 @@
       ]
     },
     {
-      "velocity": "0",
-      "x": "0",
-      "y": "1080",
-      "separation_x": "1500",
-      "animation_velocity": "5",
-      "sprites": [
-        {
-          "type": "image",
-          "path": "transparent.png"
-        }
-      ],
-      "bounds": {
-        "is_active": "yes",
-        "x": "0",
-        "y": "0",
-        "width": "500",
-        "height": "340"
-      }
-    },
-    {
-      "velocity": "0",
-      "x": "0",
-      "y": "1080",
-      "separation_x": "1500",
-      "animation_velocity": "5",
-      "sprites": [
-        {
-          "type": "image",
-          "path": "transparent.png"
-        }
-      ],
-      "bounds": {
-        "is_active": "yes",
-        "x": "0",
-        "y": "0",
-        "width": "560",
-        "height": "260"
-      }
-    },
-    {
-      "velocity": "0",
-      "x": "0",
-      "y": "1080",
-      "separation_x": "1500",
-      "animation_velocity": "5",
-      "sprites": [
-        {
-          "type": "image",
-          "path": "transparent.png"
-        }
-      ],
-      "bounds": {
-        "is_active": "yes",
-        "x": "0",
-        "y": "0",
-        "width": "620",
-        "height": "100"
-      }
-    },
-    {
-      "velocity": "0",
-      "x": "0",
-      "y": "1080",
-      "separation_x": "1500",
-      "animation_velocity": "5",
-      "sprites": [
-        {
-          "type": "image",
-          "path": "transparent.png"
-        }
-      ],
-      "bounds": {
-        "is_active": "yes",
-        "x": "0",
-        "y": "0",
-        "width": "200",
-        "height": "450"
-      }
-    },
-    {
-      "velocity": "2",
+      "velocity": "-1",
       "angle": "0",
       "x": "50",
+      "y": "50",
+      "separation_x": "550",
+      "animation_velocity": "5",
+      "sprites": [
+        {
+          "type": "image",
+          "path": "platform_big.png"
+        }
+      ],
+      "bounds": {
+        "is_active": "yes",
+        "x": "60",
+        "y": "0",
+        "width": "820",
+        "height": "780"
+      }
+    },
+    {
+      "velocity": "-1",
+      "angle": "0",
+      "x": "1100",
       "y": "0",
-      "separation_x": "1500",
+      "separation_x": "1050",
       "animation_velocity": "5",
       "sprites": [
         {
@@ -301,19 +242,25 @@
           "path": "platform.png"
         }
       ],
-      "modifiers": [
+      "bounds": {
+        "is_active": "yes",
+        "x": "60",
+        "y": "0",
+        "width": "410",
+        "height": "390"
+      }
+    },
+    {
+      "velocity": "-1",
+      "angle": "0",
+      "x": "1100",
+      "y": "550",
+      "separation_x": "1050",
+      "animation_velocity": "5",
+      "sprites": [
         {
-          "at": "0",
-          "angle": "0"
-        },
-        {
-          "at": "100",
-          "angle": "180"
-        },
-        {
-          "at": "200",
-          "frame": "0",
-          "angle": "0"
+          "type": "image",
+          "path": "platform.png"
         }
       ],
       "bounds": {
@@ -353,41 +300,6 @@
           "angle": "0"
         }
       ]
-    },
-    {
-      "velocity": "2",
-      "angle": "270",
-      "x": "800",
-      "y": "0",
-      "separation_x": "1500",
-      "animation_velocity": "5",
-      "sprites": [
-        {
-          "type": "image",
-          "path": "platform.png"
-        }
-      ],
-      "modifiers": [
-        {
-          "at": "0",
-          "angle": "-90"
-        },
-        {
-          "at": "260",
-          "angle": "90"
-        },
-        {
-          "at": "520",
-          "frame": "0"
-        }
-      ],
-      "bounds": {
-        "is_active": "yes",
-        "x": "60",
-        "y": "0",
-        "width": "410",
-        "height": "390"
-      }
     },
     {
       "velocity": "2",

@@ -3,11 +3,11 @@
   "animation_velocity": "12",
   "hp": "4400",
   "initial_position": {
-    "x": "1600",
+    "x": "1800",
     "y": "550"
   },
   "sounds": {
-    "hit": "sounds/hit.ogg"
+    "hit": "sounds/hurt.wav"
   },
   "life_bar": {
     "image": "sprites/life_bar.png",
