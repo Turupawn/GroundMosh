@@ -6,7 +6,7 @@
       "damage": "1",
       "sound": {
         "channel": "3",
-        "path": "sounds/lazer.wav"
+        "path": "sounds/lazer.ogg"
       },
       "sprites": [
         {
@@ -36,7 +36,7 @@
       "damage": "1",
       "sound": {
         "channel": "3",
-        "path": "sounds/bubble.wav"
+        "path": "sounds/bubble.ogg"
       },
       "sprites": [
         {

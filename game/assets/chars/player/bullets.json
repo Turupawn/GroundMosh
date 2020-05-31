@@ -6,7 +6,7 @@
     "damage": "1",
     "sound": {
       "channel": "-1",
-      "path": "sounds/primary_shot.mp3"
+      "path": "sounds/primary_shot.ogg"
     },
     "sprites": [
       {
