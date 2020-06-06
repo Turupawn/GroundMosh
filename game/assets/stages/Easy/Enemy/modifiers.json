@@ -16,32 +16,28 @@
       "pattern_type": "A"
     },
     {
-      "life_at": "3800",
+      "life_at": "3500",
       "pattern_type": "B"
     },
     {
-      "life_at": "3500",
+      "life_at": "3000",
       "pattern_type": "C"
     },
     {
-      "life_at": "2800",
+      "life_at": "2500",
       "pattern_type": "D"
     },
     {
-      "life_at": "2500",
+      "life_at": "2000",
       "pattern_type": "E"
     },
     {
-      "life_at": "1900",
+      "life_at": "1000",
       "pattern_type": "F"
     },
     {
-      "life_at": "1600",
+      "life_at": "500",
       "pattern_type": "G"
-    },
-    {
-      "life_at": "1000",
-      "pattern_type": "H"
     }
   ]
 }  

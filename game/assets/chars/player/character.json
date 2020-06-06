@@ -1,6 +1,8 @@
 {
   "velocity": "7",
-  "dash_velocity": "23",
+  "dash":{
+    "velocity": "23"
+  },
   "slow": {
     "max": "1000",
     "decrement": "4",
@@ -38,7 +40,10 @@
     "y": "150"
   },
   "sounds": {
-    "hit": "sounds/hurt.ogg"
+    "hit": "sounds/hurt.ogg",
+    "destroyed": "sounds/destroyed.ogg",
+    "dash": "sounds/dash.ogg",
+    "bomb": "sounds/bomb.ogg"
   },
   "life_bar": {
     "image": "sprites/life_bar.png",
