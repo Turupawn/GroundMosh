@@ -44,7 +44,8 @@
             "animation_velocity": "6",
             "offset_x": "-60",
             "offset_y": "161",
-            "velocity": "12",
+            "velocity": "-20",
+            "acceleration": "1",
             "max_velocity": "14",
             "cooldown": "100",
             "aim_player": "yes"
@@ -62,7 +63,8 @@
             "animation_velocity": "6",
             "offset_x": "-60",
             "offset_y": "81",
-            "velocity": "12",
+            "velocity": "-20",
+            "acceleration": "1",
             "max_velocity": "14",
             "cooldown": "100",
             "aim_player": "yes"
@@ -95,7 +97,7 @@
             "offset_x": "-60",
             "offset_y": "161",
             "velocity": "35",
-            "cooldown": "120",
+            "cooldown": "80",
             "aim_player_on_begin": "yes",
             "modifiers":
             {
@@ -115,7 +117,7 @@
             "offset_x": "-60",
             "offset_y": "161",
             "velocity": "35",
-            "cooldown": "120",
+            "cooldown": "80",
             "aim_player_on_begin": "yes",
             "modifiers":
             {
@@ -135,7 +137,7 @@
             "offset_x": "-60",
             "offset_y": "161",
             "velocity": "35",
-            "cooldown": "120",
+            "cooldown": "80",
             "aim_player_on_begin": "yes",
             "modifiers":
             {
@@ -155,7 +157,7 @@
             "offset_x": "-60",
             "offset_y": "161",
             "velocity": "35",
-            "cooldown": "120",
+            "cooldown": "80",
             "aim_player_on_begin": "yes",
             "modifiers":
             {
@@ -175,7 +177,7 @@
             "offset_x": "-60",
             "offset_y": "161",
             "velocity": "35",
-            "cooldown": "120",
+            "cooldown": "80",
             "aim_player_on_begin": "yes",
             "modifiers":
             {
