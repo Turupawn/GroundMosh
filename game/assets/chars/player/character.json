@@ -1,7 +1,8 @@
 {
   "velocity": "7",
   "dash":{
-    "velocity": "23"
+    "velocity": "25",
+    "friction": "2"
   },
   "slow": {
     "max": "1000",
