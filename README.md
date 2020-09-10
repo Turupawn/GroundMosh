@@ -29,29 +29,23 @@ Install dependencies:
 sudo apt install libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev
 ```
 
+Run:
+
 ```
-./shmup
+sh launch_game.sh
 ```
 
 On Windows:
 
 ```
-shmup.exe
+launch_game.bat
 ```
 
 On MacOs:
 
 The Mac build is a WIP.
 
-# Shoot'Em Up Maker
-
-This game was created with the [Shoot'Em Up Maker](https://github.com/Rosalila/STG#usage). Take a look at the [Usage Guide](https://github.com/Rosalila/STG#usage) and start creating your shmup.
-
 # Contributions welcome
-
-We encourage both short and long term contributions.
-
-## Short term contributions
 
 1. Fork it
 2. Add new features
@@ -62,11 +56,4 @@ git push origin my-new-feature
 ```
 3. [Create a pull request](https://github.com/Turupawn/GroundMosh/compare)
 
-
-## Long term contributions
-
-Ground Mosh development is ruled by an horizontal organization. As a contributor, keep in mind the following process designed to power open source comercial projects:
-
-1. Earnings and other resources will be distributed according to our internal **peer reviewing system**.
-2. Our peer reviewing system is based on **meritocratic values**. The bigger your engagement and contributions are, the bigger your voice will be heard.
-3. Only a selected group of **reviewers** will be allowed to peer review all participants. After significant contributions, anyone can apply or chat about it via [discord](https://discord.gg/fGBbQZ8).
+_This game was created with the [Shoot'Em Up Maker](https://github.com/Rosalila/STG)_
