@@ -23,7 +23,7 @@
     "y": "1080"
   },
   "fullscreen": {
-    "enabled": "no"
+    "enabled": "yes"
   },
   "font": {
     "path": "assets/font.ttf",
