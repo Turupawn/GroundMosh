@@ -7,6 +7,9 @@
   "stages": {
     "stage": [
       {
+        "name": "Stage3-Normal"
+      },
+      {
         "name": "Normal"
       },
       {

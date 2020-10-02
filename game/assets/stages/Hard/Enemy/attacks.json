@@ -2,6 +2,40 @@
   "attacks":
   [
     {
+      "name": "proximity_reward",
+      "patterns": {
+        "bullet": "proximity_reward",
+        "angle": "-45",
+        "random_angle": "90",
+        "animation_velocity": "6",
+        "velocity": "15",
+        "cooldown": "0",
+        "aim_player_on_begin": "no",
+        "homing": "yes"
+      }
+    },
+    {
+      "name": "cancel_reward",
+      "patterns": {
+        "bullet": "cancel_reward",
+        "angle": "-45",
+        "random_angle": "90",
+        "animation_velocity": "6",
+        "velocity": "0",
+        "max_velocity": "30",
+        "cooldown": "0",
+        "aim_player_on_begin": "no",
+        "homing": "yes",
+        "modifiers":[
+          {
+            "at": "10",
+            "acceleration": "1",
+            "a_frequency": "1"
+          }
+        ]
+      }
+    },
+    {
       "name": "A",
       "repeat": [
         {

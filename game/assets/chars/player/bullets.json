@@ -39,9 +39,12 @@
       "path": "sounds/shoot.ogg"
     },
     "sprites": [
-      {
-        "path": "bullets/spike/01.png"
-      }
+        {
+          "path": "bullets/spike/01.png"
+        },
+        {
+          "path": "bullets/spike/02.png"
+        }
     ],
     "on_hit_sprites": [
       {

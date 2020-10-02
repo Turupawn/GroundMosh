@@ -1,0 +1,95 @@
+{
+  "bullets_domain": {
+    "x": "0",
+    "y": "0",
+    "width": "1920",
+    "height": "1080"
+  },
+  "misc": {
+    "velocity": "0"
+  },
+  "back_layers": [
+    {
+      "velocity": "0",
+      "x": "0",
+      "y": "0",
+      "sprites": {
+        "type": "image",
+        "path": "background.png"
+      }
+    },
+    {
+      "velocity": "0",
+      "x": "0",
+      "y": "0",
+      "type": "bomb",
+      "sprites": {
+        "type": "image",
+        "path": "background_bomb.png"
+      }
+    },
+    {
+      "velocity": "-4",
+      "angle": "0",
+      "x": "50",
+      "y": "0",
+      "separation_x": "10",
+      "animation_velocity": "5",
+      "sprites": [
+        {
+          "type": "image",
+          "path": "platform_side.png"
+        }
+      ],
+      "bounds": {
+        "is_active": "yes",
+        "x": "0",
+        "y": "0",
+        "width": "1024",
+        "height": "256"
+      }
+    },
+    {
+      "velocity": "-4",
+      "angle": "0",
+      "x": "50",
+      "y": "824",
+      "separation_x": "10",
+      "animation_velocity": "5",
+      "sprites": [
+        {
+          "type": "image",
+          "path": "platform_side.png"
+        }
+      ],
+      "bounds": {
+        "is_active": "yes",
+        "x": "0",
+        "y": "0",
+        "width": "1024",
+        "height": "256"
+      }
+    },
+    {
+      "velocity": "-4",
+      "angle": "0",
+      "x": "50",
+      "y": "284",
+      "separation_x": "500",
+      "animation_velocity": "5",
+      "sprites": [
+        {
+          "type": "image",
+          "path": "platform_center.png"
+        }
+      ],
+      "bounds": {
+        "is_active": "yes",
+        "x": "0",
+        "y": "0",
+        "width": "2048",
+        "height": "512"
+      }
+    }
+  ]
+}
