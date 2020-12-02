@@ -7,13 +7,16 @@
   "stages": {
     "stage": [
       {
-        "name": "Stage3-Normal"
-      },
-      {
         "name": "Normal"
       },
       {
         "name": "Hard"
+      },
+      {
+        "name": "Stage2-Normal"
+      },
+      {
+        "name": "Stage3-Normal"
       }
     ]
   },
@@ -26,7 +29,7 @@
     "y": "1080"
   },
   "fullscreen": {
-    "enabled": "yes"
+    "enabled": "no"
   },
   "font": {
     "path": "assets/font.ttf",

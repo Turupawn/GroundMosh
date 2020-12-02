@@ -213,6 +213,7 @@
       "angle": "0",
       "x": "50",
       "y": "0",
+      "type": "platform",
       "separation_x": "550",
       "animation_velocity": "5",
       "sprites": [
@@ -234,6 +235,7 @@
       "angle": "0",
       "x": "1100",
       "y": "0",
+      "type": "platform",
       "separation_x": "1050",
       "animation_velocity": "5",
       "sprites": [
@@ -255,6 +257,7 @@
       "angle": "0",
       "x": "1100",
       "y": "550",
+      "type": "platform",
       "separation_x": "1050",
       "animation_velocity": "5",
       "sprites": [

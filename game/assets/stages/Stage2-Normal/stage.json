@@ -29,66 +29,25 @@
       }
     },
     {
-      "velocity": "-4",
+      "velocity": "0",
       "angle": "0",
-      "x": "50",
+      "x": "180",
       "y": "0",
-      "separation_x": "550",
+      "type": "platform",
+      "separation_x": "1050",
       "animation_velocity": "5",
       "sprites": [
         {
           "type": "image",
-          "path": "platform_big.png"
+          "path": "platform.png"
         }
       ],
       "bounds": {
         "is_active": "yes",
-        "x": "80",
+        "x": "0",
         "y": "0",
-        "width": "880",
-        "height": "885"
-      }
-    },
-    {
-      "velocity": "-4",
-      "angle": "0",
-      "x": "1100",
-      "y": "0",
-      "separation_x": "1050",
-      "animation_velocity": "5",
-      "sprites": [
-        {
-          "type": "image",
-          "path": "platform.png"
-        }
-      ],
-      "bounds": {
-        "is_active": "yes",
-        "x": "33",
-        "y": "17",
-        "width": "440",
-        "height": "425"
-      }
-    },
-    {
-      "velocity": "-4",
-      "angle": "0",
-      "x": "1100",
-      "y": "550",
-      "separation_x": "1050",
-      "animation_velocity": "5",
-      "sprites": [
-        {
-          "type": "image",
-          "path": "platform.png"
-        }
-      ],
-      "bounds": {
-        "is_active": "yes",
-        "x": "33",
-        "y": "17",
-        "width": "440",
-        "height": "425"
+        "width": "1800",
+        "height": "1080"
       }
     },
     {
@@ -96,21 +55,65 @@
       "velocity": "-4",
       "angle": "0",
       "x": "1100",
-      "y": "250",
+      "y": "760",
       "separation_x": "1050",
       "animation_velocity": "5",
       "sprites": [
         {
           "type": "image",
-          "path": "platform.png"
+          "path": "obstacle.png"
         }
       ],
       "bounds": {
         "is_active": "yes",
-        "x": "33",
-        "y": "17",
-        "width": "440",
-        "height": "425"
+        "x": "0",
+        "y": "0",
+        "width": "200",
+        "height": "200"
+      }
+    },
+    {
+      "type": "obstacle",
+      "velocity": "-4",
+      "angle": "0",
+      "x": "1100",
+      "y": "440",
+      "separation_x": "1050",
+      "animation_velocity": "5",
+      "sprites": [
+        {
+          "type": "image",
+          "path": "obstacle.png"
+        }
+      ],
+      "bounds": {
+        "is_active": "yes",
+        "x": "0",
+        "y": "0",
+        "width": "200",
+        "height": "200"
+      }
+    },
+    {
+      "type": "obstacle",
+      "velocity": "-4",
+      "angle": "0",
+      "x": "1100",
+      "y": "120",
+      "separation_x": "1050",
+      "animation_velocity": "5",
+      "sprites": [
+        {
+          "type": "image",
+          "path": "obstacle.png"
+        }
+      ],
+      "bounds": {
+        "is_active": "yes",
+        "x": "0",
+        "y": "0",
+        "width": "200",
+        "height": "200"
       }
     }
   ]

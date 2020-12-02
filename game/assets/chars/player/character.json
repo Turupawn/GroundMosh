@@ -37,8 +37,8 @@
   "animation_velocity": "4",
   "hp": "4",
   "initial_position": {
-    "x": "150",
-    "y": "150"
+    "x": "250",
+    "y": "350"
   },
   "sounds": {
     "hit": "sounds/hurt.ogg",

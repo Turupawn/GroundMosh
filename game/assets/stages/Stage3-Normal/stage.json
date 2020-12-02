@@ -29,10 +29,11 @@
       }
     },
     {
-      "velocity": "-4",
+      "velocity": "-2",
       "angle": "0",
       "x": "50",
       "y": "0",
+      "type": "platform",
       "separation_x": "10",
       "animation_velocity": "5",
       "sprites": [
@@ -50,10 +51,11 @@
       }
     },
     {
-      "velocity": "-4",
+      "velocity": "-2",
       "angle": "0",
       "x": "50",
       "y": "824",
+      "type": "platform",
       "separation_x": "10",
       "animation_velocity": "5",
       "sprites": [
@@ -71,10 +73,11 @@
       }
     },
     {
-      "velocity": "-4",
+      "velocity": "-2",
       "angle": "0",
       "x": "50",
       "y": "284",
+      "type": "platform",
       "separation_x": "500",
       "animation_velocity": "5",
       "sprites": [

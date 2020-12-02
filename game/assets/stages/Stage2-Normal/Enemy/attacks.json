@@ -39,21 +39,6 @@
       "name": "A",
       "repeat": [
         {
-          "amount": "7",
-          "offset_y": "-140",
-          "patterns": {
-            "bullet": "ball",
-            "angle": "-40",
-            "random_angle": "80",
-            "animation_velocity": "6",
-            "offset_x": "-1800",
-            "offset_y": "500",
-            "velocity": "1",
-            "cooldown": "100",
-            "aim_player_on_begin": "yes"
-          }
-        },
-        {
           "amount": "10",
           "startup": "2",
           "patterns": {
